@@ -3,11 +3,14 @@
 #when you want a spesific input
 
 while True:
-try:
-        color = input("Tell me a color that is only one word:").lower().strip()
-        elif " "color.isnumeric():
-            print("umm thats not right go back to first grade and try again")
-            break    
+    color = input("Tell me a color that is only one word:").lower().strip()
+
+    if color.isnumeric():
+            print("Umm thats not right go back to first grade and try again")
+    elif " " in color:
+            print("I said one word, learn to count.")
+    else:
+        break
 
 print(f"I painted your walls {color}!")
 # when you want a number
