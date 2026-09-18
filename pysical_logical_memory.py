@@ -1,4 +1,4 @@
-# VL, Pysical and logical Memory
+# AM, Pysical and logical Memory
 
 pi = 3.1415
 

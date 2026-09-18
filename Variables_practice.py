@@ -1,4 +1,4 @@
-# VL, Variables Notes
+# AM, Variables Notes
 print("Welcome to questions of the day")
 print("Todays quiz is...ALL ABOUT YOU")
 name= input("Tell me your name: ")
