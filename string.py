@@ -9,7 +9,7 @@
 
 last_name = 'mugleston'
 first_name = 'ainsley'
-name = first_name = " " + last_name
+name = first_name + " " + last_name
 
 #'lkfjaf' "aelijfalf" surround with quotes
 #first_name + " " Last_name   puts two strings together
@@ -26,3 +26,7 @@ sentence = "The quick brown fox jumped over the lazy dog."
 print(sentence)
 print(sentence.replace("dog", "cat"))
 print(f"The sentence is {len(sentence)} characters long")
+
+#index
+#word = Polar
+#word{0} = P
