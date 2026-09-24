@@ -8,37 +8,41 @@ lower = False
 number = False
 symbol = False
 
+symbols = "$#!?@^%*&"
+
+strong = 0
+medium = 0
+weak = 0
+
 if len(password) >=8:
-    print("true")
-else:
-    print("false")
+    length = True
 
-if password.isupper():
-    uppercase = True
-else:
-    uppercase = False
 
+for letter in password:
+    if password.isupper():
+        uppercase = True
+
+    if letter.islower():
+        lowercase = True
+
+    if letter.isnumeric():
+        number = True
+
+    if letter in symbols:
+        symbol = True
+
+score == 0
+if length:
+    score = score + 1
+if uppercase True:
+    score = score + 1
+if lowercase True:
+    score = score + 1
+if number True:
+    score = score + 1
+if symbol True:
+    score = score + 1
 print(f"Has a uppercase letter: {uppercase}")
-
-if password.islower():
-    lowercase = True
-else:
-    lowercase = False
-
 print(f"Has a lowercase letter: {lowercase}")
-    
-if password.isnumeric():
-    number = True
-else:
-    number = False
-
 print(f"Has a number: {number}")
-
-if password in "$#!?@^%*&":
-    symbol = True
-else:
-    symbol = False
-
 print(f"Has a symbol: {symbol}")
-
-strong = password is 
