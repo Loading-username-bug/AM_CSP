@@ -19,7 +19,7 @@ if len(password) >=8:
 
 
 for letter in password:
-    if password.isupper():
+    if letter.isupper():
         uppercase = True
 
     if letter.islower():
@@ -42,6 +42,8 @@ if number True:
     score = score + 1
 if symbol True:
     score = score + 1
+
+
 print(f"Has a uppercase letter: {uppercase}")
 print(f"Has a lowercase letter: {lowercase}")
 print(f"Has a number: {number}")
