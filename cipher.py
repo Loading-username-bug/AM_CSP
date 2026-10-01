@@ -7,9 +7,24 @@ e_d = input("Would you like to encript or decript something? If encript type E i
 message = input("Enter code")
 shift = (int(input("Enter shift amount")))
 
+if e_d == "E":
+    result = ceaser_cipher
+
+else:
+
+
 #using range?
 
-def(message,shift):
+def ceaser_cipher(message,shift):
     for letter in message:
-        if letter .isalpha()
+        if letter .isalpha():
+            changed_number = ord(letter)
+            if letter.isupper():
+                start = ord("A")
+            else:
+                start = ord("a")
+
+# postitions etc
+
+
 
